@@ -1,0 +1,128 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1051614",
+      "name": "易",
+      "font_class": "yi",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "1852610",
+      "name": "wifi",
+      "font_class": "wifi",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "2345354",
+      "name": "易信",
+      "font_class": "yixin",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "2842061",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "3038281",
+      "name": "三角形-02",
+      "font_class": "sanjiaoxing02",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "3319365",
+      "name": "货车",
+      "font_class": "huoche",
+      "unicode": "e504",
+      "unicode_decimal": 58628
+    },
+    {
+      "icon_id": "5910088",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "6582830",
+      "name": "购物车",
+      "font_class": "icon-test",
+      "unicode": "e54b",
+      "unicode_decimal": 58699
+    },
+    {
+      "icon_id": "7278875",
+      "name": "人头",
+      "font_class": "rentou",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "8595956",
+      "name": "三角形",
+      "font_class": "sanjiaoxing",
+      "unicode": "e536",
+      "unicode_decimal": 58678
+    },
+    {
+      "icon_id": "8630882",
+      "name": "放大镜",
+      "font_class": "search",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "10052135",
+      "name": "礼包",
+      "font_class": "libao",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "11107269",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e949",
+      "unicode_decimal": 59721
+    },
+    {
+      "icon_id": "11973034",
+      "name": "尖括号上",
+      "font_class": "jiankuohaoshang",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "13596071",
+      "name": "kefu",
+      "font_class": "kefu",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "13727661",
+      "name": "奖章",
+      "font_class": "jiangzhang",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    },
+    {
+      "icon_id": "14104465",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e9ea",
+      "unicode_decimal": 59882
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+@charset 'utf-8';
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.logowall {
+  width: 100%;
+}
+.logowall .logo {
+  width: 1100px;
+  height: 64px;
+  margin: 0 auto;
+  background: #0000;
+}
+.logo {
+  width: 1100px;
+  height: 64px;
+}
+.logo img {
+  width: 168px;
+  padding-top: 28px;
+}
+.logo .logo1 {
+  float: left;
+}
+.logo .logo2 {
+  float: right;
+  padding-top: 28px;
+  width: 180px;
+}
+.logo .logo2 .liang {
+  padding: 3px 6px;
+  font-size: 14px;
+  display: block;
+  float: left;
+}
+.logo .logo2 .new {
+  margin-top: 4px;
+  width: 25px;
+  height: 16px;
+  background-color: red;
+  display: block;
+  float: left;
+  padding: 1px 6px 1px 6px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+}
+.contentwall {
+  width: 100%;
+  background-color: #0000;
+}
+.contentwall .content {
+  width: 1100px;
+  height: 449px;
+  margin: 0 auto;
+  background-color: #Fff;
+}
+.contentwall .content1 {
+  width: 444px;
+  height: 449px;
+  margin: 0 auto;
+}
+.contentwall .content1 > ul {
+  width: 537px;
+  height: 73px;
+}
+.contentwall .content1 > ul li {
+  width: 179px;
+  height: 73px;
+  float: left;
+}
+.contentwall .content1 > ul li .border1,
+.contentwall .content1 > ul li .border2,
+.contentwall .content1 > ul li .border3 {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  margin: 0 67.5px 10px;
+}
+.contentwall .content1 > ul li .import1,
+.contentwall .content1 > ul li .import2,
+.contentwall .content1 > ul li .import3 {
+  width: 179px;
+  height: 19px;
+  font-size: 14px;
+  text-align: center;
+}
+.input-in {
+  width: 444px;
+  height: 46px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.input-in input {
+  border: none;
+  outline: none;
+  display: block;
+  float: left;
+  height: 46px;
+  width: 300px;
+}
+.submit-in {
+  width: 444px;
+  height: 46px;
+}
+.submit-in input:nth-child(2) {
+  display: block;
+  font-size: 17px;
+  color: #fff;
+  width: 444px;
+  height: 46px;
+  background-color: #2C82FF;
+}

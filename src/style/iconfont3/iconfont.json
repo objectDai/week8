@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1173511",
+      "name": "用户",
+      "font_class": "yonghu2",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2670095",
+      "name": "箭头_jammy",
+      "font_class": "jiantou",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "5256087",
+      "name": "新浪",
+      "font_class": "xinlang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "5443691",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e8de",
+      "unicode_decimal": 59614
+    },
+    {
+      "icon_id": "5479572",
+      "name": "shoji",
+      "font_class": "icon-test",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    }
+  ]
+}
