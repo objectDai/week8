@@ -216,3 +216,7 @@
 .show {
   display: block;
 }
+.particulars-content > .left-s > #imagesa {
+  width: 430px;
+  height: 430px;
+}

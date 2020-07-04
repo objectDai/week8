@@ -15,20 +15,25 @@ define(['jquery', 'cookie'], function($, cookie) {
                 success: function(res) {
                     console.log(res)
 
-                    console.log(res.pic)
-                    let temp = `
-                    <div class="left-s">
-                    <div>
-                        <img src="..${res.pic}" alt="">
+                    res.forEach(function(elm, index) {
+                        // console.log(elm.minpic.split(",")[index])
+                        // elm.minpic.split(",").forEach(minpic)
 
+                        if (elm.id === id) {
+                            let temp = `
+                    <div class="left-s">
+                    <div id="imagesa">
+                        <img src="${baseUrl}/src/${elm.pic}" alt="">
+
+                      
+                        
                     </div>
                     <ul class="lanya">
-                        <li> <img src="..${res.minpic[0]}" alt=""></li>
-                        <li>
-                            <img src="..${res.minpic[1]}" alt=""></li>
-                        <li> <img src="..${res.minpic[2]}" alt=""></li>
-                        <li> <img src="..${res.minpic[3]}" alt=""></li>
-                        <li><img src="..${res.minpic[4]}" alt=""></li>
+                        <li> <img src="${baseUrl}/src/${elm.minpic.split(",")[0]}" alt=""></li>
+                        <li> <img src="${baseUrl}/src/${elm.minpic.split(",")[1]}" alt=""></li>
+                        <li> <img src="${baseUrl}/src/${elm.minpic.split(",")[2]}" alt=""></li>
+                        <li> <img src="${baseUrl}/src/${elm.minpic.split(",")[3]}" alt=""></li>
+                        <li> <img src="${baseUrl}/src/${elm.minpic.split(",")[4]}" alt=""></li>
                     </ul>
                     <div class="gou">
                         企业采购更优惠>
@@ -38,8 +43,8 @@ define(['jquery', 'cookie'], function($, cookie) {
                 <!-- 头部 -->
                 <div class="reputation">
                     <div class="reputation-left">
-                        <h4>${res.title}</h4>
-                        <div>${res.detal}</div>
+                        <h4>${elm.title}</h4>
+                        <div>${elm.detal}</div>
                     </div>
                     <div class="reputation-right">
                         <span>
@@ -88,8 +93,8 @@ define(['jquery', 'cookie'], function($, cookie) {
                     <div class="operate">
                         <div class="shop-style">
                             <span>颜色</span>
-                            <img src="..${res.color[0]}" alt="">
-                            <img src="..${res.color[1]}" alt="">
+                            <img src="${baseUrl}/src/${elm.color.split(",")[0]}" alt="">
+                            <img src="${baseUrl}/src/${elm.color.split(",")[1]}" alt="">
                         </div>
                         <div class="num">
                             <span>数量</span>
@@ -97,16 +102,18 @@ define(['jquery', 'cookie'], function($, cookie) {
                         </div>
                         <div class="place">
                             <a href="">立即购买</a>
-                            <a href="" class="iconfont add">&#xe54b;加入购物车</a>
+                            <a href="${baseUrl}/src/html/shopcar.html?id=${elm.id}" class="iconfont add">&#xe54b;加入购物车</a>
                             <span class="iconfont">&#xe62f;立即收藏</span>
                         </div>
                     </div>
                 </div>
                     `;
 
-                    $('.particulars-content').html(temp);
+                            $('.particulars-content').html(temp);
 
-                    callback && callback(res.id, res.price);
+                            callback && callback(elm.id, elm.price);
+                        }
+                    })
                 }
             });
         },

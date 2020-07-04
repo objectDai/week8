@@ -140,9 +140,9 @@
   width: 39px;
   height: 40px;
 }
-.shop-main .shoping div:nth-child(1) div,
-.shop-main .shoping1 div:nth-child(1) div,
-.shop-main .shoping2 div:nth-child(1) div {
+.shop-main .shoping div:nth-child(1) div input,
+.shop-main .shoping1 div:nth-child(1) div input,
+.shop-main .shoping2 div:nth-child(1) div input {
   padding-top: 40px;
   margin-left: 40px;
 }
@@ -244,19 +244,25 @@
   width: 170px;
   height: 30px;
 }
-.shop-main .shoping div:nth-child(4) span,
-.shop-main .shoping1 div:nth-child(4) span,
-.shop-main .shoping2 div:nth-child(4) span {
-  padding: 0.5px 5px;
-  background-color: #ffffff;
-  border: 1px solid #333;
-  outline: none;
+.shop-main .shoping div:nth-child(4) button,
+.shop-main .shoping1 div:nth-child(4) button,
+.shop-main .shoping2 div:nth-child(4) button {
+  margin-top: 20px;
+  width: 22px;
+  height: 22px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
 }
 .shop-main .shoping div:nth-child(4) input,
 .shop-main .shoping1 div:nth-child(4) input,
 .shop-main .shoping2 div:nth-child(4) input {
-  width: 58px;
+  margin-top: 20px;
   height: 22px;
+  width: 40px;
+  text-align: center;
+  border-right: none;
+  border: 1px solid #f3f3f3;
+  border-left: none;
 }
 .shop-main .shoping div:nth-child(5),
 .shop-main .shoping1 div:nth-child(5),

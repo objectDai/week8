@@ -318,8 +318,10 @@
   display: inline-block;
   border: 1px solid #f3f3f3;
   outline: none;
+  margin-bottom: 10px;
 }
 .num input {
+  margin-bottom: 10px;
   height: 26px;
   width: 60px;
   text-align: center;
