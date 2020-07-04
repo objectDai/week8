@@ -1,4 +1,4 @@
-let baseUrl = "http://localhost/Netease strictly selected"; // 基础路径 必须是绝对路径
+let baseUrl = "http://localhost/NSS"; // 基础路径 必须是绝对路径
 
 define(['jquery'], function($) {
     return {
@@ -12,10 +12,11 @@ define(['jquery'], function($) {
                     let temp = '';
                     res.forEach(elm => {
                         console.log(elm.pic);
-                        let pic = JSON.parse(elm.pic);
-                        console.log(pic);
+                        let pic = elm.pic;
+
                         temp += `<div class="main-content">
-                        <img src="${baseUrl}/src/html/product.html?id=${elm.id}" alt="">
+                        <a href="${baseUrl}/src/html/particulars.html?id=${elm.id}">
+                        <img src="..${elm.pic}">
                         <div id="price">
                             <div class="shop2">
                                 <span>限时购<strong>￥159</strong>起</span>
@@ -38,12 +39,13 @@ define(['jquery'], function($) {
                                 <span class="span2">${elm.oldprice}</span>
                                 </span>
                             </p>
+                            </a>
                         </div>
                     </div>`;
-                        $('.list').html(temp);
+
                     });
-
-
+                    console.log(temp)
+                    $('.main-main').html(temp);
                 }
             });
         }

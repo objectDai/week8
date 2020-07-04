@@ -1,4 +1,4 @@
-require.config({
+requirejs.config({
     paths: {
         jquery: './jquery.min',
         index: './lib/index'
