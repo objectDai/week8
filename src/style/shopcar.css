@@ -1,0 +1,337 @@
+@charset 'utf-8';
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.shopwall {
+  width: 100%;
+}
+.shopwall .shopcar {
+  width: 1090px;
+  height: 800px;
+  margin: 0 auto;
+}
+.quan {
+  width: 1090px;
+  height: 38px;
+  margin-top: 10px;
+  background-color: #dbd2b7;
+}
+.quan .iconf {
+  float: left;
+  width: 137px;
+  text-align: center;
+  line-height: 38px;
+}
+.quan .iconf .iconfont {
+  font-size: 36px;
+  color: #f85a5a;
+}
+.quan .iconf .gouwu {
+  color: #fcfcfc;
+  font-size: 16px;
+}
+.quan .lingquan {
+  text-align: center;
+  line-height: 38px;
+  background-color: #E36844;
+  width: 88px;
+  height: 38px;
+  float: right;
+}
+.quan .lingquan .quan1 {
+  color: #fff;
+  font-size: 16px;
+}
+.quan .lingquan .jianto1 {
+  color: 18px;
+}
+.quan-top {
+  width: 1090px;
+  height: 27px;
+  margin-bottom: 20px;
+  padding: 12px 0;
+  background-color: #F5F5F5;
+}
+.quan-top div {
+  float: left;
+}
+.quan-top div:nth-child(1) {
+  width: 133px;
+  margin-right: 20px;
+  text-align: center;
+}
+.quan-top div:nth-child(2) {
+  width: 300px;
+}
+.quan-top div:nth-child(3) {
+  width: 180px;
+  text-align: center;
+  line-height: 19px;
+}
+.quan-top div:nth-child(4) {
+  width: 170px;
+  text-align: center;
+  line-height: 19px;
+}
+.quan-top div:nth-child(5) {
+  width: 150px;
+  text-align: right;
+  line-height: 19px;
+}
+.quan-top div:nth-child(6) {
+  width: 129px;
+  line-height: 19px;
+}
+.change {
+  width: 998px;
+  height: 43px;
+  padding: 0 30px 0 60px;
+  background-color: #f5eda386;
+  margin: 0 0 10px;
+  line-height: 43px;
+}
+.change span:nth-child(1) {
+  font-size: 12px;
+  color: #fff;
+  padding: 4px 8px;
+  margin: 11px 10px 0 0 ;
+  background-color: #E4282D;
+}
+.change span:nth-child(2) {
+  margin: 0 20px 0 0;
+  font-size: 14px;
+}
+.change span:nth-child(3) {
+  background-color: #fff;
+  border: 1px solid #E4282D;
+  padding: 4px 8px;
+  color: #E36844;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.change span:nth-child(4) {
+  color: #6699CC;
+  font-size: 12px;
+}
+.shop-main {
+  width: 1090px;
+  height: 420px;
+}
+.shop-main .shoping,
+.shop-main .shoping1,
+.shop-main .shoping2 {
+  width: 1090px;
+  height: 120px;
+  padding: 20px 0;
+  border-top: 7px solid #fff;
+  background-color: #fff6cc;
+}
+.shop-main .shoping div,
+.shop-main .shoping1 div,
+.shop-main .shoping2 div {
+  float: left;
+}
+.shop-main .shoping div:nth-child(1),
+.shop-main .shoping1 div:nth-child(1),
+.shop-main .shoping2 div:nth-child(1) {
+  width: 39px;
+  height: 40px;
+}
+.shop-main .shoping div:nth-child(1) div,
+.shop-main .shoping1 div:nth-child(1) div,
+.shop-main .shoping2 div:nth-child(1) div {
+  padding-top: 40px;
+  margin-left: 40px;
+}
+.shop-main .shoping div:nth-child(2),
+.shop-main .shoping1 div:nth-child(2),
+.shop-main .shoping2 div:nth-child(2) {
+  width: 400px;
+  height: 80px;
+}
+.shop-main .shoping div:nth-child(2) div:nth-child(1),
+.shop-main .shoping1 div:nth-child(2) div:nth-child(1),
+.shop-main .shoping2 div:nth-child(2) div:nth-child(1) {
+  width: 400px;
+  height: 16px;
+  float: left;
+}
+.shop-main .shoping div:nth-child(2) div:nth-child(1) img,
+.shop-main .shoping1 div:nth-child(2) div:nth-child(1) img,
+.shop-main .shoping2 div:nth-child(2) div:nth-child(1) img {
+  width: 98px;
+  display: block;
+}
+.shop-main .shoping div:nth-child(2) .qiang,
+.shop-main .shoping1 div:nth-child(2) .qiang,
+.shop-main .shoping2 div:nth-child(2) .qiang {
+  width: 280px;
+  height: 100px;
+  float: right;
+  margin-left: 20px;
+}
+.shop-main .shoping div:nth-child(2) .qiang div:nth-child(1),
+.shop-main .shoping1 div:nth-child(2) .qiang div:nth-child(1),
+.shop-main .shoping2 div:nth-child(2) .qiang div:nth-child(1) {
+  font-size: 12px;
+  columns: #999999;
+}
+.shop-main .shoping div:nth-child(2) .qiang div:nth-child(1) span:nth-child(1),
+.shop-main .shoping1 div:nth-child(2) .qiang div:nth-child(1) span:nth-child(1),
+.shop-main .shoping2 div:nth-child(2) .qiang div:nth-child(1) span:nth-child(1) {
+  border: 1px solid #E4282D;
+  font-size: 12px;
+  padding: 1px 2px;
+  color: #E4282D;
+}
+.shop-main .shoping div:nth-child(2) .qiang div:nth-child(1) span:nth-child(2),
+.shop-main .shoping1 div:nth-child(2) .qiang div:nth-child(1) span:nth-child(2),
+.shop-main .shoping2 div:nth-child(2) .qiang div:nth-child(1) span:nth-child(2) {
+  color: #333;
+  font-size: 12px;
+}
+.shop-main .shoping div:nth-child(3),
+.shop-main .shoping1 div:nth-child(3),
+.shop-main .shoping2 div:nth-child(3) {
+  width: 180px;
+  height: 60px;
+  padding: 10px 0 0;
+}
+.shop-main .shoping div:nth-child(3) .pice,
+.shop-main .shoping1 div:nth-child(3) .pice,
+.shop-main .shoping2 div:nth-child(3) .pice {
+  width: 180px;
+  height: 19px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.shop-main .shoping div:nth-child(3) .pice span:nth-child(1),
+.shop-main .shoping1 div:nth-child(3) .pice span:nth-child(1),
+.shop-main .shoping2 div:nth-child(3) .pice span:nth-child(1) {
+  font-size: 14px;
+  color: #E4282D;
+  margin-right: 8px;
+}
+.shop-main .shoping div:nth-child(3) .pice span:nth-child(2),
+.shop-main .shoping1 div:nth-child(3) .pice span:nth-child(2),
+.shop-main .shoping2 div:nth-child(3) .pice span:nth-child(2) {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #999999;
+}
+.shop-main .shoping div:nth-child(3) .special-police,
+.shop-main .shoping1 div:nth-child(3) .special-police,
+.shop-main .shoping2 div:nth-child(3) .special-police {
+  text-align: center;
+  line-height: 16px;
+  width: 180px;
+  height: 16px;
+}
+.shop-main .shoping div:nth-child(3) .special-police span,
+.shop-main .shoping1 div:nth-child(3) .special-police span,
+.shop-main .shoping2 div:nth-child(3) .special-police span {
+  font-size: 10px;
+  padding: 2px 4px;
+  color: red;
+  border: 1px solid red;
+}
+.shop-main .shoping div:nth-child(4),
+.shop-main .shoping1 div:nth-child(4),
+.shop-main .shoping2 div:nth-child(4) {
+  width: 170px;
+  height: 30px;
+}
+.shop-main .shoping div:nth-child(4) span,
+.shop-main .shoping1 div:nth-child(4) span,
+.shop-main .shoping2 div:nth-child(4) span {
+  padding: 0.5px 5px;
+  background-color: #ffffff;
+  border: 1px solid #333;
+  outline: none;
+}
+.shop-main .shoping div:nth-child(4) input,
+.shop-main .shoping1 div:nth-child(4) input,
+.shop-main .shoping2 div:nth-child(4) input {
+  width: 58px;
+  height: 22px;
+}
+.shop-main .shoping div:nth-child(5),
+.shop-main .shoping1 div:nth-child(5),
+.shop-main .shoping2 div:nth-child(5) {
+  width: 80px;
+  height: 12px;
+  padding: 0 30px 0 0;
+  margin: 0 0 10px;
+  font-size: 14px;
+  color: #E4282D;
+}
+.shop-main .shoping .del,
+.shop-main .shoping1 .del,
+.shop-main .shoping2 .del {
+  width: 98px;
+  height: 24px;
+}
+.shop-main .shoping .del div:nth-child(1),
+.shop-main .shoping1 .del div:nth-child(1),
+.shop-main .shoping2 .del div:nth-child(1) {
+  width: 98px;
+}
+.shop-main .shoping .del .delete,
+.shop-main .shoping1 .del .delete,
+.shop-main .shoping2 .del .delete {
+  height: 24px;
+}
+.shop-main .shoping .del .delete a,
+.shop-main .shoping1 .del .delete a,
+.shop-main .shoping2 .del .delete a {
+  color: #333333;
+}
+.account {
+  width: 1090px;
+  height: 70px;
+  margin-top: 80px;
+  background-color: #F5F5F5;
+}
+.account .account-1 {
+  width: 300px;
+  height: 70px;
+  float: left;
+  margin-right: 158px;
+  font-size: 15px;
+  line-height: 70px;
+}
+.account .account-2 {
+  width: 228px;
+  height: 70px;
+  float: left;
+  line-height: 70px;
+}
+.account .account-3 {
+  width: 258px;
+  height: 70px;
+  float: left;
+  font-size: 25px;
+  color: #E4282D;
+}
+.account .account-3 .strong1 {
+  font-size: 12px;
+  width: 50px;
+  line-height: 70px;
+}
+.account .account-3 i {
+  line-height: 70px;
+  font-weight: 600 ;
+  font-style: normal;
+  width: 60px;
+}
+.account .account-4 {
+  width: 140px;
+  height: 70px;
+  float: left;
+  line-height: 70px;
+  text-align: center;
+  background-color: #B4A078;
+}

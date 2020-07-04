@@ -9,44 +9,59 @@
   width: 100%;
 }
 .register-wall .register {
-  background: url(../img/baijing.png) no-repeat center center;
+  width: 1090px;
   height: 480px;
 }
-.register-ct {
+.register-ct,
+#register-ct1 {
   width: 410px;
-  height: 420px;
-  background-color: #ffffff;
+  height: 340px;
+  background-color: #B4A078;
   margin-left: 59.6%;
-  border-top: 1px solid #9999;
+  border: 1px solid #9999;
+  display: none;
 }
-.register-ct .register-ct-1 {
+.register-ct ul,
+#register-ct1 ul,
+.register-ct .register-ct-1-1,
+#register-ct1 .register-ct-1-1 {
   width: 306px;
   height: 60px;
   margin: 10px 30px 0 30px;
   text-align: center;
 }
-.register-ct .register-ct-1 span:nth-child(1) {
+.register-ct ul li:nth-child(1),
+#register-ct1 ul li:nth-child(1),
+.register-ct .register-ct-1-1 li:nth-child(1),
+#register-ct1 .register-ct-1-1 li:nth-child(1) {
   padding: left 30px;
   padding-right: 30px;
   font-size: 18px;
   color: #999999;
   margin-left: 20px;
+  float: left;
 }
-.register-ct .register-ct-1 span:nth-child(2) {
+.register-ct ul li:nth-child(2),
+#register-ct1 ul li:nth-child(2),
+.register-ct .register-ct-1-1 li:nth-child(2),
+#register-ct1 .register-ct-1-1 li:nth-child(2) {
   padding: 0 0 0 50px;
   font-size: 18px;
   border-left: 1px solid #9999;
   font: size 18px;
   color: #999999;
+  float: left;
 }
-.register-ct-2 {
+.register-ct .register-ct-2,
+#register-ct1 .register-ct-2 {
   width: 300px;
   height: 18px;
   padding: 0 0 0 66%;
   font-size: 12px;
   color: #9999;
 }
-.register-ct-3 {
+.register-ct .register-ct-3,
+#register-ct1 .register-ct-3 {
   width: 300px;
   height: 36px;
   border: 1px solid #9999;
@@ -54,17 +69,20 @@
   margin-left: 13%;
   margin-top: 10px;
 }
-.register-ct-3 span {
+.register-ct .register-ct-3 span,
+#register-ct1 .register-ct-3 span {
   font-size: 20px;
   background-color: #999999;
   height: 36px;
-  width: 77px;
+  width: 40px;
   text-align: center;
   display: block;
   float: left;
   line-height: 36px;
+  border-right: 1px solid #9999;
 }
-.register-ct-3 input {
+.register-ct .register-ct-3 input,
+#register-ct1 .register-ct-3 input {
   text-align: center;
   line-height: 36px;
   border: none;
@@ -73,11 +91,11 @@
   width: 222px;
   color: #6666;
   outline: none;
-  border-left: 1px solid #9999;
   display: block;
   float: right;
 }
-.register-ct-4 {
+.register-ct .register-ct-4,
+#register-ct1 .register-ct-4 {
   width: 300px;
   height: 36px;
   border: 1px solid rgba(190, 190, 190, 0.6);
@@ -86,7 +104,8 @@
   margin-top: 10px;
   display: inline-block;
 }
-.register-ct-4 span {
+.register-ct .register-ct-4 span,
+#register-ct1 .register-ct-4 span {
   color: #8a8888;
   text-align: center;
   line-height: 36px;
@@ -98,7 +117,8 @@
   display: block;
   float: left;
 }
-.register-ct-4 input {
+.register-ct .register-ct-4 input,
+#register-ct1 .register-ct-4 input {
   text-align: center;
   line-height: 36px;
   height: 36px;
@@ -109,7 +129,8 @@
   display: block;
   float: right;
 }
-.register-ct-5 {
+.register-ct .register-ct-5,
+#register-ct1 .register-ct-5 {
   width: 300px;
   height: 36px;
   border: 1px solid #999999;
@@ -117,7 +138,8 @@
   margin-top: 10px;
   margin-left: 13%;
 }
-.register-ct-5 input {
+.register-ct .register-ct-5 input,
+#register-ct1 .register-ct-5 input {
   width: 221px;
   height: 36px;
   outline: none;
@@ -127,7 +149,8 @@
   text-align: center;
   line-height: 36px;
 }
-.register-ct-5 span {
+.register-ct .register-ct-5 span,
+#register-ct1 .register-ct-5 span {
   height: 36px;
   width: 70px;
   background-color: #ccc;
@@ -137,7 +160,8 @@
   text-align: center;
   line-height: 36px;
 }
-.register-ct-7 {
+.register-ct .register-ct-7,
+#register-ct1 .register-ct-7 {
   width: 300px;
   height: 36px;
   background-color: #B4A078;
@@ -146,7 +170,8 @@
   color: #ffff;
   margin: 10px 0 0 13%;
 }
-.register-ct-8 {
+.register-ct .register-ct-8,
+#register-ct1 .register-ct-8 {
   width: 300px;
   height: 30px;
   font-size: 12px;
@@ -154,29 +179,40 @@
   margin-top: 10px;
   margin-left: 14%;
 }
-.register-ct-8 a {
+.register-ct .register-ct-8 a,
+#register-ct1 .register-ct-8 a {
   color: #999999;
 }
-.register-ct-9 {
+.register-ct .register-ct-9,
+#register-ct1 .register-ct-9 {
   height: 64px;
   width: 385px;
   background-color: #f5f0e6;
   padding-right: 26px;
   padding-top: 30px;
 }
-.register-ct-9 .register-ct-9-1 {
+.register-ct .register-ct-9 .register-ct-9-1,
+#register-ct1 .register-ct-9 .register-ct-9-1 {
   float: left;
   width: 240px;
   height: 52px;
 }
-.register-ct-9 .register-ct-9-1 .iconfont {
+.register-ct .register-ct-9 .register-ct-9-1 .iconfont,
+#register-ct1 .register-ct-9 .register-ct-9-1 .iconfont {
   margin-left: 18px;
   font-size: 25px;
 }
-.register-ct-9 .register-ct-9-2 {
+.register-ct .register-ct-9 .register-ct-9-2,
+#register-ct1 .register-ct-9 .register-ct-9-2 {
   float: right;
   width: 120px;
   height: 15px;
   font-size: 12px;
   color: #ccc;
+}
+.actived {
+  color: blue;
+}
+.show {
+  display: block;
 }

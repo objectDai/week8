@@ -6,40 +6,44 @@
     text-decoration: none;
   }
 .register-wall{
-  width: 100%;
-  .register{
-    background: url(../img/baijing.png)no-repeat center center;
-    height: 480px;
+  width: 100%;  
+  .register{ 
+    width: 1090px;height:480px;
+   
+   //position: relative;
   }
 }
-.register-ct{
+.register-ct,#register-ct1{
+ 
   width: 410px;
-  height:420px;
-  background-color: #ffffff;
+  height:340px;
+  background-color: #B4A078;
   margin-left: 59.6%;
-  border-top:1px solid #9999;
-  .register-ct-1{
+  border:1px solid #9999;
+  display: none;
+  ul,.register-ct-1-1{
     width: 306px;
     height: 60px;
     margin:10px 30px 0 30px;
     text-align:center;
-    span:nth-child(1){
+  li:nth-child(1){
       padding: left 30px;
      padding-right:30px;
       font-size:18px;
      color:#999999;
       margin-left:20px;
-      
+    float: left;
     }
-    span:nth-child(2){
+   li:nth-child(2){
       padding:0 0 0 50px;
       font-size:18px;
       border-left:1px solid #9999;
       font: size 18px;
       color:#999999;
+      float: left;
     }
   }
-}
+
 
 .register-ct-2{
         width: 300px;
@@ -60,22 +64,22 @@
         font-size: 20px;
         background-color: #999999;
          height: 36px;
-         width:77px;
+         width:40px;
          text-align: center;
          display: block;
          float: left;
-         line-height: 36px;
+         line-height: 36px; border-right:1px solid #9999;
         }
         input{ 
           text-align: center;
           line-height: 36px;
-         border:none;
+          border:none;
           background-color: #ffff;
           height: 36px;
           width: 222px;
           color:#6666;
           outline:none;
-          border-left:1px solid #9999;
+         
           display: block;
           float: right;
         }
@@ -186,3 +190,11 @@
   color:#ccc;
  } 
  }
+}
+
+.actived{
+  color:blue;
+}
+.show{
+  display: block;
+}

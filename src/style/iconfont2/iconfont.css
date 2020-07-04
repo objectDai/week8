@@ -1,0 +1,21 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1593745639467'); /* IE9 */
+  src: url('iconfont.eot?t=1593745639467#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAARgAAsAAAAACKQAAAQSAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCcAqFLIQ7ATYCJAMICwYABCAFhG0HMhtjB1GUzE2f7GuMiQxdPqKFotoEEjh3R7/rthvLQWcGjwBAgoo/RuAQDwgAiIf/3+/bPvfdN6bSVDAJEW8TGo0EqZFJk1iUQDcJZfhHduTcQ9zqCR/2hL19R0CfVKmhCi5duXKXe8d+2zdg91UappFIprpkMo0tYXZ32/1V8BCh8ogJ2IATCEAGHtfBYMH7oOHDWgJgy/cBVhuc3qKMxfY/x0wXKZYfaC7ZQXsD2hu3DqzrgFr4DuTA/IBvGV51kHunnhOoMyQHc9TWMwJ+MnNdIF4pEgt+GbXckBtqhKqKo1m8k1aT3qTHeBv8fPy0Fn4kZcEsuPukVYCGL5lWgueWirXlIXCGM4I/RYEFIBMPK823eUbhBZ7qVLOXsebaLPgy9v8ee7F/eARRxRQ3YOwA+5g4DvdQxYnRZMc+eU2UVF9OOdViYXobFwESK8+fWjvfuPI+avdZZ9ar2n0BqBAtkUioPtshIovGXHKj4S1hF6CI3iQ4NrrYiEzMXVYYS4tMVueuiJDZTTUSG54x0IsErOqVwUjyQoLIwAxCiEFqLbtNNknBHMlS1UscccYzbCdWl5zAWJ/mDgxyW01qU2QMMpJStgZwpZSdHbOrUtmMi0hVA+a2VDDrMWFMLPH5/yibI2n/d7zj/vY5rD8kf7+br9nDGcz/tMr+eh+23p3zWDOhs29spmE4IDm4aC5U9S/wZlpLxtq3Xp9056Hnoxne+2hTJEuH9RDzn4PNf07Knv0f9Hnx0/d8oPbDptB5/sT2qC1ph+C0j3hstoE0XbsK35J+CI4vp0L9Li8zBrl2A+6Jmw9d933RbAgxf13s0HVyKWyTA2/mvLd2HND23yo/G366kR0qyzvxODrxIsc27xg+U7hr8tPtv4p3nP18V8s3sBzxKQnwbvNitrzL4nqKoIZNrwi/4Oa6hgFf78kAv3/2dfr5b2zxDs0PPEv9fbq9RC/YA6hchNTwL/yOTydXHu2G1vz2gww+D95d4KycFcwKau6YJXjzHGBb1nimJmWFUxlPrpV3tKZOHSoYe5t3tNZOkBhDjcDBkFQbhEKNCWTGLkCp3gZUqbELdea1n67XjvAUuRZzdiIILW5C0uQKCi2eIDP2LZS6/IAqLeEJdR5H5JX1pkIJaCaYpVhA3CpSeMsUbR0NCHOHsLSosyTNC0hjmLiKDxUureRj7djEZIgd7pJURKmIRGIZqA29DOu6hWxiqZineTKldlX+8pOqV8rjLQMCHCIwFoUJEM4qRMGzmESvNxVQ+P4hmGSRjkUaWqr0YzDCpUyPFMpTAEC2i01Qy6XMdi2RFKEokVklIiwGpA0bMd0KWxC7epEK41F5ZIqgrUo+6SRCxXnTS4272wd1TEUKK7VQ82KRNY9dBQAAAA==') format('woff2'),
+  url('iconfont.woff?t=1593745639467') format('woff'),
+  url('iconfont.ttf?t=1593745639467') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1593745639467#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-juanicon:before {
+  content: "\e629";
+}
+

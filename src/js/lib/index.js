@@ -40,9 +40,9 @@ define(['jquery'], function($) {
                             </p>
                         </div>
                     </div>`;
+                        $('.list').html(temp);
                     });
 
-                    $('.list').html(temp);
 
                 }
             });

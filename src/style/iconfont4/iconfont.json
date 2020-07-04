@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10101708",
+      "name": "五星",
+      "font_class": "wuxing",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    }
+  ]
+}

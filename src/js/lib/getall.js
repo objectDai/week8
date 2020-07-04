@@ -6,6 +6,6 @@ require.config({
     }
 });
 
-require(['shopcar'], function(shopcar) {
-    shopcar.render();
+require(['home'], function(home) {
+    home.render();
 })
